@@ -225,23 +225,3 @@ header {
     margin-top: 9px;
 }
 
-
-/* Device not found */
-
-.devicenotgreatsize {
-    display: none;
-}
-
-/* @media -s */
-
-
-@media only screen and (max-width: 975px) {
-  i {
-    display: inline-block !important;
-  }
-
-  .headertextdiv {
-    display: none;
-  }
-}
-

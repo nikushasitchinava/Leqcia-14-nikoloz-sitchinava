@@ -15,7 +15,6 @@ body {
   padding-bottom: 140px;
 }
 
-/* header - geolab - a - burger */
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,8 +28,7 @@ header {
   top: 0;
   z-index: 2;
 }
-
-.headertextdiv {
+header .headertextdiv {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,6 +39,22 @@ header {
   width: 700px;
   right: 78px;
 }
+header .headertextdiv .headertext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 400%;
+  font-size: 17px;
+  color: #636060;
+  margin-top: 33px;
+}
+header i {
+  display: none !important;
+  font-size: 50px !important;
+  color: #636060;
+  margin-top: 15px !important;
+  margin-right: 78px;
+}
 
 .background {
   background-color: white;
@@ -50,32 +64,13 @@ header {
   top: 0;
   z-index: 1;
 }
-
-#geolab {
+.background #geolab {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 22px;
   margin-left: 88px;
   margin-right: 50px;
-}
-
-.headertext {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-weight: 400%;
-  font-size: 17px;
-  color: #636060;
-  margin-top: 33px;
-}
-
-i {
-  display: none !important;
-  font-size: 50px !important;
-  color: #636060;
-  margin-top: 15px !important;
-  margin-right: 78px;
 }
 
 /* the big photo and text inside centered */
